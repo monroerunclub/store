@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Monroe Run Club — Official</title>
+<style>
+:root{--accent:#1e90ff;--bg:#f7f9fc;--card:#fff;--muted:#6b7280}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:var(--bg);color:#0f172a}
+header{background:linear-gradient(90deg,var(--accent),#3bb6ff);color:#fff;padding:28px 20px}
+.wrap{max-width:1100px;margin:0 auto;padding:24px}
+h1{margin:0;font-size:28px}
+nav{margin-top:8px}
+nav a{color:rgba(255,255,255,0.95);margin-right:14px;text-decoration:none;font-weight:600}
+.hero{display:flex;gap:24px;align-items:center;padding:36px 0}
+.hero .cta{background:#fff;color:#0f172a;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none}
+main{padding:28px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.product img{width:100%;border-radius:8px}
+.product h3{margin:8px 0 4px}
+.muted{color:var(--muted)}
+.price{font-weight:800;margin-top:6px}
+.btn{display:inline-block;padding:10px 12px;border-radius:8px;text-decoration:none;font-weight:700}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-outline{border:2px solid #e6eef9;color:#0f172a;background:transparent}
+footer{padding:28px 0;color:var(--muted)}
+/* cart modal */
+.cart{position:fixed;right:22px;bottom:22px;background:var(--card);padding:12px;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.12)}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<h1>Monroe Run Club</h1>
+<nav>
+<a href="#shop">Shop</a>
+<a href="#about">About</a>
+<a href="#events">Events</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="wrap">
+<section class="hero">
+<div style="flex:1">
+<h2>Run together. Grow together.</h2>
+<p class="muted">Community running club in Monroe County, MI — fun runs, training plans, and merch.</p>
+<p style="margin-top:12px"><a class="cta" href="#shop">Shop T‑shirts</a></p>
+</div>
+<div style="width:260px">
+<img alt="Monroe Run Club logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='140'><rect rx='14' width='100%' height='100%' fill='%231e90ff'/><text x='50%' y='55%' font-family='Arial' font-size='28' fill='white' text-anchor='middle'>Monroe Run Club</text></svg>" style="width:100%;border-radius:10px;box-shadow:0 8px 18px rgba(0,0,0,0.08)"/>
+</div>
+</section>
+
+
+<section id="shop">
+<h2>Shop T‑shirts</h2>
+<p class="muted">Support the club — locally printed, comfortable tech tees. Free shipping to Monroe County.</p>
+<div class="grid" style="margin-top:12px">
+<div class="card product">
+<img src="https://via.placeholder.com/600x400?text=Classic+Logo+T" alt="Classic Logo T-shirt">
+<h3>Classic Logo T</h3>
+<div class="muted">Unisex tech tee — breathable.</div>
+<div class="price">$22.00</div>
+<div style="margin-top:10px">
+<a class="btn btn-primary" href="#" data-sku="classic-tee">Add to cart</a>
+<a class="btn btn-outline" href="#">Details</a>
+</div>
+</div>
+
+
+<div class="card product">
+<img src="https://via.placeholder.com/600x400?text=Vintage+Run" alt="Vintage Run T-shirt">
+<h3>Vintage Run T</h3>
+<div class="muted">Retro-styled run club tee.</div>
+<div class="price">$24.00</div>
+</html>
